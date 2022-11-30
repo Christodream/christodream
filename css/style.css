@@ -1,239 +1,1217 @@
-body{
-
-    padding: 0;
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #413E6B;
+      padding: 0;
     margin: 0;
-    background-color: black;
-}
-header{
-
-width: 100%;
-height: 100px;
-background-color: #413E6B;
-display: flex;
-justify-content: center;
-
-}
-
-#logo{
-
-
-width: 200px;
-height: 50px;
-background-color: #413E6B;
-display: flex;
-justify-content: center;
 
 
 }
+#rectangle{
 
-H1{
-
-    color: white;
-    line-height: 100%;
-    font-family: sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
-.c1{
-
-    color: #FF9F0D;
-}
-
-nav{
-    
-    width: 100%;
-    height: 100px;
-    background-color: #413E6B;
-    display: flex;
-    justify-content: flex-start;
-    
-    
+  width: 100%;
+  height: 100px;
+  background-color: #413E6B;
+  display: flex;
+  
+  
 
 }
-
 .carre{
 
-    width: 200px;
+    width: 300px;
     height: 100px;
     background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
     text-align: center;
     line-height: 100px;
-    color: white;
-    font-family: sans-serif;
-    
+    font-size: 150%;
+    font-family: anton;
     
     
     
 
+}
+.carre:hover{
+
+
+
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
     
+    
+    
+}
+@font-face{
+    
+    font-family: anton;
+    src: url(../css/font/anton/Anton-Regular.ttf);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-color: black;
+    border-width: thin;
 }
 
 section{
     
     width: 100%;
-    height: 900px;
+    height: 100px;
     background-color: #413E6B;
     display: flex;
-    justify-content: center;
-    border-top: solid #D8D8D8;
+    
+    border-top: solid black;
+    border-width: thin;
+    line-height: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    
+
+}
+#img1{
+    
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    border-top: solid black;
     border-width: thin;
     
     
     
+    
+    
+    
 
 }
-
-#img1{
+#img2{
     
-    width: 1500px;
-    height: 900px;
+    width: 400px;
+    height: 100px;
     background-color: #413E6B;
-    background: url(../image/screen1.png) no-repeat center center ;
+    border-top: solid black;
+    border-width: thin;
+    
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-03-02\ Figma.png) no-repeat center ;
+  
+    
     
     
 
 }
 
-.sm:hover{
+h1{
+
+    text-align: center;
+    color: white;
+    font-family: anton;
+}
+#kre{
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
+    line-height: 100px;
+    
+    
+  
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-36-09\ Figma.png) no-repeat center;
+    
+
+
+}
+#kre:hover{
+
+
+
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
+    
+    
+    
+}
+.c1{
 
     color: #FF9F0D;
-    width: 100px;
 }
 
-.sm{
+h2{
 
-    height: 50px;
-    width: 90px;
-    text-align: center ;
-    line-height: 50px;
-    transition: 0.5s;
+    color: white;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+h6{
+
+    color: white;
+    font-weight: lighter;
+    margin-left: 10px;
 }
 
 #coco{
 
     width: 100%;
-    height: 700px;
-    
+    height: 100px;
     background-color: #413E6B;
-    border-top: solid #413E6B ;
+    border-top: solid black;
     border-width: thin;
+}
+
+#coco2{
+
+    width: 100%;
+    height: 130px;
+    background-color: #413E6B;
+    
+    
+}
+
+#civil{
+
+    width: 150px;
+    height: 100px;
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 13-55-27\ Figma.png) center no-repeat;
+    margin-left: 10px;
+}
+
+#coco3{
+
+    width: 100%;
+    height: 650px;
+    background-color: #413E6B;
+    
+    
+}
+
+input, textarea {
+    background-color: #413E6B;
+    
+    
+  }
+
+
+  input[type=text] {
+    border: none;
+      border-bottom: 2px solid black;
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+
+    label{
+
+        color: white;
+        margin-left: 10px;
+    }
+
+    #pr{
+
+     margin-left: 350px;
+    }
+
+    #te{
+
+        margin-left: 210px;
+       }
+
+
+       #te1{
+
+        width: 350px;
+       }
+
+       #te2{
+
+        width: 400px;
+       }
+
+       #pr1{
+
+        margin-left: 300px;
+       }
+
+       #te3{
+
+        margin-left: 210px;
+       }
+
+       #coco4{
+
+        width: 100%;
+        height: 50px;
+        background-color:#413E6B;
+        
+        
+        
+    }
+
+    #recap{
+
+        width: 300px;
+        height: 50px;
+        background-color: red;
+        margin-top: 50px;
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 15-09-48\ Figma.png) center no-repeat;
+        margin-left: 20px;
+
+
+    }
+
+    #coco5{
+
+        width: 100%;
+        height: 330px;
+        background-color:#413E6B;
+        display: flex;
+        justify-content: center;
+        line-height: 230px;
+        
+        
+        
+    }
+
+    #recap1{
+
+        width: 350px;
+        height: 250px;
+        background-color: #FF9F0D;
+        margin-top: 50px;
+        border-radius: 10%;
+        
+
+        }
+
+        
+        
+        
+
+
+   
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        body {
+            background-color: #413E6B;
+            padding: 0;
+          margin: 0;
+      
+      
+      }
+
+      #rectangle{
+
+        width: 100%;
+        height: 100px;
+        background-color: #413E6B;
+        display: flex;
+        
+        
+      
+      }
+      .carre{
+
+        width: 300px;
+        height: 100px;
+        background-color: #413E6B;
+        flex-grow: 1;
+        flex-shrink: 1;
+        border-style: solid;
+        transition: 1s;
+        text-align: center;
+        line-height: 100px;
+        font-size: 150%;
+        font-family: anton;
+        
+        
+        
+    
+    }
+    .carre:hover{
+    
+    
+    
+        background-color: #413E6B;
+        color: #FF9F0D;
+        width: 400px;
+        
+        
+        
+    }
+    @font-face{
+        
+        font-family: anton;
+        src: url(../css/font/anton/Anton-Regular.ttf);
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        border-color: black;
+        border-width: thin;
+    }
+    
+    section{
+        
+        width: 100%;
+        height: 100px;
+        background-color: #413E6B;
+        display: flex;
+        
+        border-top: solid black;
+        border-width: thin;
+        line-height: 50px;
+        
+        
+        
+    
+    }
+    #img1{
+        
+        width: 200px;
+        height: 100px;
+        background-color: #413E6B;
+        border-top: solid black;
+        border-width: thin;
+        
+        
+        
+        
+        
+        
+    
+    }
+    #img2{
+        
+        width: 400px;
+        height: 100px;
+        background-color: #413E6B;
+        border-top: solid black;
+        border-width: thin;
+        
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 09-03-02\ Figma.png) no-repeat center ;
+      
+        
+        
+        
+    
+    }
+    
+    h1{
+    
+        text-align: center;
+        color: white;
+        font-family: anton;
+    }
+    #kre{
+        width: 200px;
+        height: 100px;
+        background-color: #413E6B;
+        flex-grow: 1;
+        flex-shrink: 1;
+        border-style: solid;
+        transition: 1s;
+        line-height: 100px;
+        
+        
+      
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 09-36-09\ Figma.png) no-repeat center;
+        
+    
+    
+    }
+    #kre:hover{
+    
+    
+    
+        background-color: #413E6B;
+        color: #FF9F0D;
+        width: 400px;
+        
+        
+        
+    }
+    .c1{
+    
+        color: #FF9F0D;
+    }
+    
+    h2{
+    
+        color: white;
+        font-weight: lighter;
+        margin-left: 10px;
+    }
+    
+    h6{
+    
+        color: white;
+        font-weight: lighter;
+        margin-left: 10px;
+    }
+    
+    #coco{
+    
+        width: 100%;
+        height: 100px;
+        background-color: #413E6B;
+        border-top: solid black;
+        border-width: thin;
+    }
+    
+    #coco2{
+    
+        width: 100%;
+        height: 130px;
+        background-color: #413E6B;
+        
+        
+    }
+    
+    #civil{
+    
+        width: 150px;
+        height: 100px;
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 13-55-27\ Figma.png) center no-repeat;
+        margin-left: 10px;
+    }
+    
+    #coco3{
+    
+        width: 100%;
+        height: 650px;
+        background-color: #413E6B;
+        
+        
+    }
+    
+    input, textarea {
+        background-color: #413E6B;
+        
+        
+      }
+    
+    
+      input[type=text] {
+        border: none;
+          border-bottom: 2px solid black;
+          color: white;
+          margin-left: 10px;
+          margin-top: 10px;
+        }
+    
+        label{
+    
+            color: white;
+            margin-left: 10px;
+        }
+    
+        #pr{
+    
+         margin-left: 350px;
+        }
+    
+        #te{
+    
+            margin-left: 210px;
+           }
+    
+    
+           #te1{
+    
+            width: 350px;
+           }
+    
+           #te2{
+    
+            width: 400px;
+           }
+    
+           #pr1{
+    
+            margin-left: 300px;
+           }
+    
+           #te3{
+    
+            margin-left: 210px;
+           }
+    
+           #coco4{
+    
+            width: 100%;
+            height: 50px;
+            background-color:#413E6B;
+            
+            
+            
+        }
+    
+        #recap{
+    
+            width: 300px;
+            height: 50px;
+            background-color: red;
+            margin-top: 50px;
+            background: url(../image/Screenshot\ 2022-11-29\ at\ 15-09-48\ Figma.png) center no-repeat;
+            margin-left: 20px;
+    
+    
+        }
+    
+        #coco5{
+    
+            width: 100%;
+            height: 330px;
+            background-color:#413E6B;
+            display: flex;
+            justify-content: center;
+            line-height: 230px;
+            
+            
+            
+        }
+    
+        #recap1{
+    
+            width: 350px;
+            height: 250px;
+            background-color: #FF9F0D;
+            margin-top: 50px;
+            border-radius: 10%;
+            
+    
+            }
+ 
+
+
+
+
+}
+
+@media only screen and (min-width: 992px){
+
+    body {
+        background-color: #413E6B;
+        padding: 0;
+      margin: 0;
+  
+  
+  }
+
+  #rectangle{
+
+    width: 100%;
+    height: 100px;
+    background-color: #413E6B;
     display: flex;
+    
+    
+  
+  }
+  .carre{
+
+    width: 300px;
+    height: 100px;
+    background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
+    text-align: center;
+    line-height: 100px;
+    font-size: 150%;
+    font-family: anton;
+    
+    
+    
+
+}
+.carre:hover{
+
+
+
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
+    
+    
+    
+}
+@font-face{
+    
+    font-family: anton;
+    src: url(../css/font/anton/Anton-Regular.ttf);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-color: black;
+    border-width: thin;
+}
+
+section{
+    
+    width: 100%;
+    height: 100px;
+    background-color: #413E6B;
+    display: flex;
+    
+    border-top: solid black;
+    border-width: thin;
+    line-height: 50px;
     justify-content: center;
-    line-height: 200px;
     
-   
-
-
-}
-
-
-
-#koko1{
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-13\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+    
     
 
 }
-
-#koko2{
-
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-20\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+#img1{
     
-   
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    border: solid;
+    border-width: thin;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+    
+
+}
+#img2{
+    
+    width: 400px;
+    height: 100px;
+    background-color: #413E6B;
+    border-top: solid black;
+    border-width: thin;
+    
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-03-02\ Figma.png) no-repeat center ;
+  
+    
+    
+    
 
 }
 
-#koko3{
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-27\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+h1{
+
+    text-align: center;
+    color: white;
+    font-family: anton;
+}
+#kre{
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
+    line-height: 100px;
     
+    
+  
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-36-09\ Figma.png) no-repeat center;
     
 
 
+}
+#kre:hover{
+
+
+
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
+    
+    
+    
+}
+.c1{
+
+    color: #FF9F0D;
 }
 
 h2{
 
-    margin-top: -50PX;
-    margin-left: 200PX;
     color: white;
-    font-family: sans-serif;
     font-weight: lighter;
     
+    text-align: center;
+}
+
+h6{
+
+    color: white;
+    font-weight: lighter;
+    margin-left: 48.6%;
+    
+}
+
+#coco{
+
+    width: 100%;
+    height: 100px;
+    background-color: #413E6B;
+    border-top: solid black;
+    border-width: thin;
+}
+
+#coco2{
+
+    width: 100%;
+    height: 130px;
+    background-color: #413E6B;
+    
+    
+}
+
+#civil{
+
+    width: 150px;
+    height: 100px;
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 13-55-27\ Figma.png) center no-repeat;
+    margin-left: 46.5%;
+}
+
+#coco3{
+
+    width: 100%;
+    height: 650px;
+    background-color: #413E6B;
+    
+    
+}
+
+input, textarea {
+    background-color: #413E6B;
+    
+    
+  }
+
+
+  input[type=text] {
+    border: none;
+      border-bottom: 2px solid black;
+      color: white;
+      margin-left: 40%;
+      margin-top: 10px;
+    }
+
+    label{
+
+        color: white;
+        margin-left: 40%;
+    }
+
+    #pr{
+
+     margin-left: 350px;
+    }
+
+    #te{
+
+        margin-left: 210px;
+       }
+
+
+       #te1{
+
+        width: 350px;
+       }
+
+       #te2{
+
+        width: 400px;
+       }
+
+       #pr1{
+
+        margin-left: 300px;
+       }
+
+       #te3{
+
+        margin-left: 210px;
+       }
+
+       #coco4{
+
+        width: 100%;
+        height: 50px;
+        background-color:#413E6B;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    #recap{
+
+        width: 300px;
+        height: 50px;
+        background-color: red;
+        margin-top: 60px;
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 15-09-48\ Figma.png) center no-repeat;
+        margin-left: 20px;
+
+
+    }
+
+    #coco5{
+
+        width: 100%;
+        height: 400px;
+        background-color:#413E6B;
+        display: flex;
+        justify-content: center;
+        line-height: 230px;
+        
+        
+        
+    }
+
+    #recap1{
+
+        width: 400px;
+        height: 300px;
+        background-color: #FF9F0D;
+        margin-top: 70px;
+        border-radius: 10%;
+        margin-top: 70px;
+        
+
+        }
+    
 }
 
 
-#car{
+@media only screen and (min-width: 768px){
+
+    body {
+        background-color: #413E6B;
+        padding: 0;
+      margin: 0;
+  
+  
+  }
+
+  #rectangle{
 
     width: 100%;
-    height: 194px;
-    
-    background-color: #00052D;
-
-}
-
-.ca{
-    
-    height: 200px;
-    width: 100%;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-38-29\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-
-}
-
-#im10{
-    width: 100%;
-    height: 400px;
-    
-    background-color: #232323;
+    height: 100px;
+    background-color: #413E6B;
     display: flex;
-    justify-content: center;
+    
+    
+  
+  }
+  .carre{
 
+    width: 300px;
+    height: 100px;
+    background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
+    text-align: center;
+    line-height: 100px;
+    font-size: 150%;
+    font-family: anton;
+    
+    
+    
 
 }
+.carre:hover{
 
 
-#im1{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-46-55\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
 
-
-}
-
-#im2{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-50-27\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
+    
+    
     
 }
-
-#im3{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-48-46\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+@font-face{
     
+    font-family: anton;
+    src: url(../css/font/anton/Anton-Regular.ttf);
 }
-footer{
 
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-54-29\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-    height: 600px;
+a{
+    color: white;
+    text-decoration: none;
+    border-color: black;
+    border-width: thin;
+}
+
+section{
+    
     width: 100%;
-    background-color: #232323;
+    height: 100px;
+    background-color: #413E6B;
+    display: flex;
+    
+    border-top: solid black;
+    border-width: thin;
+    line-height: 50px;
+    justify-content: center;
+    
+    
+    
 
 }
+#img1{
+    
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    border: solid;
+    border-width: thin;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+    
+
+}
+#img2{
+    
+    width: 400px;
+    height: 100px;
+    background-color: #413E6B;
+    border-top: solid black;
+    border-width: thin;
+    
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-03-02\ Figma.png) no-repeat center ;
+  
+    
+    
+    
+
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-family: anton;
+}
+#kre{
+    width: 200px;
+    height: 100px;
+    background-color: #413E6B;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: solid;
+    transition: 1s;
+    line-height: 100px;
+    
+    
+  
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 09-36-09\ Figma.png) no-repeat center;
+    
+
+
+}
+#kre:hover{
+
+
+
+    background-color: #413E6B;
+    color: #FF9F0D;
+    width: 400px;
+    
+    
+    
+}
+.c1{
+
+    color: #FF9F0D;
+}
+
+h2{
+
+    color: white;
+    font-weight: lighter;
+    
+    text-align: center;
+}
+
+h6{
+
+    color: white;
+    font-weight: lighter;
+    margin-left: 48.6%;
+    
+}
+
+#coco{
+
+    width: 100%;
+    height: 100px;
+    background-color: #413E6B;
+    border-top: solid black;
+    border-width: thin;
+}
+
+#coco2{
+
+    width: 100%;
+    height: 130px;
+    background-color: #413E6B;
+    
+    
+}
+
+#civil{
+
+    width: 150px;
+    height: 100px;
+    background: url(../image/Screenshot\ 2022-11-29\ at\ 13-55-27\ Figma.png) center no-repeat;
+    margin-left: 46.5%;
+}
+
+#coco3{
+
+    width: 100%;
+    height: 650px;
+    background-color: #413E6B;
+    
+    
+}
+
+input, textarea {
+    background-color: #413E6B;
+    
+    
+  }
+
+
+  input[type=text] {
+    border: none;
+      border-bottom: 2px solid black;
+      color: white;
+      margin-left: 40%;
+      margin-top: 10px;
+    }
+
+    label{
+
+        color: white;
+        margin-left: 40%;
+    }
+
+    #pr{
+
+     margin-left: 350px;
+    }
+
+    #te{
+
+        margin-left: 210px;
+       }
+
+
+       #te1{
+
+        width: 350px;
+       }
+
+       #te2{
+
+        width: 400px;
+       }
+
+       #pr1{
+
+        margin-left: 300px;
+       }
+
+       #te3{
+
+        margin-left: 210px;
+       }
+
+       #coco4{
+
+        width: 100%;
+        height: 50px;
+        background-color:#413E6B;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    #recap{
+
+        width: 300px;
+        height: 50px;
+        background-color: red;
+        margin-top: 60px;
+        background: url(../image/Screenshot\ 2022-11-29\ at\ 15-09-48\ Figma.png) center no-repeat;
+        margin-left: 5px;
+
+
+    }
+
+    #coco5{
+
+        width: 100%;
+        height: 400px;
+        background-color:#413E6B;
+        display: flex;
+        justify-content: center;
+        line-height: 230px;
+        
+        
+        
+    }
+
+    #recap1{
+
+        width: 400px;
+        height: 300px;
+        background-color: #FF9F0D;
+        margin-top: 70px;
+        border-radius: 10%;
+        margin-top: 70px;
+        
+
+        }
+
+
+}
+
+
+
+
+
+
+
 

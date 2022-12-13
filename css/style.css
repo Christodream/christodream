@@ -1,239 +1,455 @@
-body{
-
+body {
+    
+    background-color:white ;
     padding: 0;
     margin: 0;
-    background-color: black;
-}
-header{
-
-width: 100%;
-height: 100px;
-background-color: #413E6B;
-display: flex;
-justify-content: center;
-
-}
-
-#logo{
 
 
-width: 200px;
-height: 50px;
-background-color: #413E6B;
-display: flex;
-justify-content: center;
-
-
-}
-
-H1{
-
-    color: white;
-    line-height: 100%;
-    font-family: sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
-.c1{
-
-    color: #FF9F0D;
 }
 
 nav{
-    
     width: 100%;
     height: 100px;
-    background-color: #413E6B;
+    background-color: #FFFFFF;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+   
+    
+    
+    
+}
+
+#nav1{
+    
+    
+    
+    font-family:openSans;
+    display: flex;
+    gap: 100px;
+    justify-content: end;
+}
+
+#sec1{
+    
+    width: 100%;
+    height: 878px;
+    
+    
+    
     
     
 
 }
 
-.carre{
+#div11{
+    
+    width: 100%;
+    height: 878px;
+    background-repeat: no-repeat;
+    background-image: url(../image/yj-lee-xFcoLGuhdGs-unsplash\ 1.png) ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+@font-face{
+    
+    font-family: arimo;
+    src: url(../css/font/arimo/Arimo-Regular.ttf);
+}
+
+@font-face{
+
+    font-family: bungee;
+    src: url(../css/font/bungee/BungeeSpice-Regular.ttf);
+}
+
+@font-face{
+
+    font-family: openSans;
+    src: url(../css/font/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face{
+
+    font-family: anton;
+    src: url(../css/font/anton/Anton-Regular.ttf);
+}
+
+@font-face{
+
+    font-family: dancing;
+    src: url(../css//font/dancing/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face{
+
+    font-family: lobster;
+    src: url(../css/font/lobster/Lobster-Regular.ttf);
+}
+
+@font-face{
+
+    font-family: pacifico;
+    src: url(../css/font/pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face{
+
+    font-family: shadow;
+    src: url(../css/font/shadow/ShadowsIntoLight-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 100px;
+}
+
+h1{
+
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#text1{
+display: flex;
+   
+
+}
+
+#sec2{
+    
+    width: 100%;
+    height: 1900px;
+    background-color: #F2E3CE;
+    
+}
+
+#div1{
+
+    width: 90%;
+    height: 700px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#img11{
 
     width: 200px;
     height: 100px;
-    background-color: #413E6B;
-    text-align: center;
-    line-height: 100px;
-    color: white;
-    font-family: sans-serif;
     
-    
-    
-    
-
-    
-}
-
-section{
-    
-    width: 100%;
-    height: 900px;
-    background-color: #413E6B;
+    align-self: center;
     display: flex;
     justify-content: center;
-    border-top: solid #D8D8D8;
-    border-width: thin;
-    
-    
-    
+    margin-top: 50px;
 
 }
 
-#img1{
+#img12{
+
+    width: 200px;
+    height: 100px;
     
-    width: 1500px;
-    height: 900px;
-    background-color: #413E6B;
-    background: url(../image/screen1.png) no-repeat center center ;
-    
-    
-
-}
-
-.sm:hover{
-
-    color: #FF9F0D;
-    width: 100px;
-}
-
-.sm{
-
-    height: 50px;
-    width: 90px;
-    text-align: center ;
-    line-height: 50px;
-    transition: 0.5s;
-}
-
-#coco{
-
-    width: 100%;
-    height: 700px;
-    
-    background-color: #413E6B;
-    border-top: solid #413E6B ;
-    border-width: thin;
+    align-self: center;
     display: flex;
     justify-content: center;
-    line-height: 200px;
-    
-   
-
-
 }
 
+#img13{
 
-
-#koko1{
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-13\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-    
-
+    width: 170px;
+    height: 80px;
+    background-color: #D9A963;
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-#koko2{
+#H11{
 
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-20\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-    
-   
-
+    font-family:dancing;
+    font-size: 55px;
+    color: #796157;
 }
 
-#koko3{
-    background-color: #FF9F0D;
-    height: 500px;
-    width: 500px;
-    margin-top: 100px;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-33-27\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-    
-    
+#H12{
 
-
+    font-family:openSans;
+    font-size: 28px;
+    color: #2C1810;
+    
 }
 
-h2{
+#H13{
 
-    margin-top: -50PX;
-    margin-left: 200PX;
-    color: white;
-    font-family: sans-serif;
+    font-family:openSans;
+    font-size: 20px;
     font-weight: lighter;
     
 }
 
+#koko1{
 
-#car{
-
-    width: 100%;
-    height: 194px;
     
-    background-color: #00052D;
-
-}
-
-.ca{
     
-    height: 200px;
-    width: 100%;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-38-29\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-
-}
-
-#im10{
-    width: 100%;
-    height: 400px;
-    
-    background-color: #232323;
+    width: 90%;
+    height: 2000px;
+    background-color: #FFFFFF;
+    margin-top: -220px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    column-gap: 250px;
+    
+    
 
-
-}
-
-
-#im1{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-46-55\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-
-
-}
-
-#im2{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-50-27\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
     
 }
 
-#im3{
-    height: 400px;
-    width: 700px;
-    background-color: #FF9F0D;
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-48-46\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
+#coco1{
+display: flex;
+justify-content: center;
+}
+
+#im11{
+
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/Rectangle\ 14.png) ;
+    background-repeat: no-repeat;
+    
+
     
 }
+
+#im12{
+
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/Rectangle\ 14\ \(1\).png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+}
+#im13{
+
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/Rectangle\ 14\ \(2\).png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    
+}
+
+
+#i1{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/THINK.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    
+
+}
+
+#i2{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/COMPANY.png) ;
+    background-repeat: no-repeat;
+   
+    display: flex;
+
+}
+
+#i3{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/DESIGN.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+
+}
+
+#i4{
+    
+    width: 500px;
+    height: 388px;
+   
+    border-radius: 10px;
+    background-image: url(../image/GENESIS.png) ;
+    background-repeat: no-repeat;
+   
+    display: flex;
+
+}
+
+#i5{
+    
+    width: 500px;
+    height: 388px;
+   
+    border-radius: 10px;
+    background-image: url(../image/PSALMS.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+
+}
+
+#i6{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/MILK.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+
+}
+
+#i7{
+    
+    width: 500px;
+    height: 388px;
+   
+    border-radius: 10px;
+    background-image: url(../image/STUPORE.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+
+}
+
+#i8{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/CEREAL.png) ;
+    background-repeat: no-repeat;
+   
+    display: flex;
+
+}
+
+#i9{
+    
+    width: 500px;
+    height: 388px;
+    
+    border-radius: 10px;
+    background-image: url(../image/ZERO.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+
+}
+
 footer{
-
-    background: url(../image/Screenshot\ 2022-11-16\ at\ 11-54-29\ PC\ Gamer\ -\ Achat\ Ordinateur\ Gaming\ Black\ Friday\ fnac.png) no-repeat center center ;
-    height: 600px;
     width: 100%;
-    background-color: #232323;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+#foot1{
+    width: 100%;
+    height: 200px;
+}
+
+
+.smic1{
+    width: 65%;
+    height: 388px;
+    
+    
 
 }
+
+.smic2{
+    width: 35%;
+    height: 388px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -30px;
+    
+
+}
+
+#im11{
+
+    display: flex;
+
+
+}
+
+#sp11{
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2C1810;
+    
+
+
+}
+
+#sp12{
+
+    font-size: 20px;
+    font-family:openSans;
+    color: #796157;
+    
+
+
+}
+
+#logo1{
+
+    width: 10px;
+    height: 10px;
+}
+ 
+#img32{
+width: 30px;
+height: 30px;
+align-self: center;
+
+}
+
+
 
